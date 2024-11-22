@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGlobalExceptionHandling", "SampleGlobalExceptionHandling\SampleGlobalExceptionHandling.csproj", "{1C3551BF-FB2A-4565-81D1-AF2CA7B8ECA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthorizationRequirement", "CustomAuthorizationRequirement\CustomAuthorizationRequirement.csproj", "{A9F28CB7-49AA-4F59-9E08-32AE90FE6397}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthorizationPolicyProvider", "CustomAuthorizationPolicyProvider\CustomAuthorizationPolicyProvider.csproj", "{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRouting", "DemoRouting\DemoRouting.csproj", "{6E463792-590B-42A5-8770-5D59F4382FB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E463792-590B-42A5-8770-5D59F4382FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E463792-590B-42A5-8770-5D59F4382FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E463792-590B-42A5-8770-5D59F4382FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E463792-590B-42A5-8770-5D59F4382FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
