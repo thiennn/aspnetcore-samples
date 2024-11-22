@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthorizationPolicyPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRouting", "DemoRouting\DemoRouting.csproj", "{6E463792-590B-42A5-8770-5D59F4382FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFeature", "CustomFeature\CustomFeature.csproj", "{94A0B851-F850-4EA6-9834-C0C9C4648851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6E463792-590B-42A5-8770-5D59F4382FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E463792-590B-42A5-8770-5D59F4382FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E463792-590B-42A5-8770-5D59F4382FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A0B851-F850-4EA6-9834-C0C9C4648851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A0B851-F850-4EA6-9834-C0C9C4648851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A0B851-F850-4EA6-9834-C0C9C4648851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A0B851-F850-4EA6-9834-C0C9C4648851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
