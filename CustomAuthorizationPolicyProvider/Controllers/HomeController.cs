@@ -1,9 +1,8 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Diagnostics;
+using CustomAuthorizationPolicyProvider.Models;
 using Microsoft.AspNetCore.Mvc;
-using SampleGlobalExceptionHandling.Models;
+using System.Diagnostics;
 
-namespace SampleGlobalExceptionHandling.Controllers
+namespace CustomAuthorizationPolicyProvider.Controllers
 {
     public class HomeController : Controller
     {
@@ -19,24 +18,15 @@ namespace SampleGlobalExceptionHandling.Controllers
             return View();
         }
 
+        [MinimumAgeAuthorize(10)]
         public IActionResult Privacy()
         {
-            throw new Exception("An exception occurred!");
             return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            var exceptionHandlerPathFeature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
-            if (exceptionHandlerPathFeature != null)
-            {
-                _logger.LogError(
-                    exceptionHandlerPathFeature.Error,
-                    "Exception occurred: {Message}",
-                    exceptionHandlerPathFeature.Error.Message);
-            }
-
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

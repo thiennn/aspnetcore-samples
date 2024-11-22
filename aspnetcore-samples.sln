@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGlobalExceptionHandling", "SampleGlobalExceptionHandling\SampleGlobalExceptionHandling.csproj", "{1C3551BF-FB2A-4565-81D1-AF2CA7B8ECA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthorizationRequirement", "CustomAuthorizationRequirement\CustomAuthorizationRequirement.csproj", "{A9F28CB7-49AA-4F59-9E08-32AE90FE6397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthorizationPolicyProvider", "CustomAuthorizationPolicyProvider\CustomAuthorizationPolicyProvider.csproj", "{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1C3551BF-FB2A-4565-81D1-AF2CA7B8ECA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C3551BF-FB2A-4565-81D1-AF2CA7B8ECA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C3551BF-FB2A-4565-81D1-AF2CA7B8ECA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F28CB7-49AA-4F59-9E08-32AE90FE6397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F28CB7-49AA-4F59-9E08-32AE90FE6397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F28CB7-49AA-4F59-9E08-32AE90FE6397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F28CB7-49AA-4F59-9E08-32AE90FE6397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22ABE4B-58C7-4B30-820B-EE79C09D09C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
